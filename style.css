@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #623e2b;
+}
+
+h2 {
+    color: #623e2b;
+}
+
+h3 {
+    color: #1e1e1e;
+}
+
+h4 {
+    color: #1e1e1e;
+    font-family: 'Lucida Sans', sans-serif;
+    font-weight: lighter;
+}
+
+hr.solid {
+    border-top: 2px solid #915744;
+    border-radius: 5px;
+    width: 57%; 
+    margin: 0 auto;
+    /* max-width: 1300px; */
+}
+
+
+.intro {
+    height: 100%;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    height: 100%;
+    width: 100%;
+    max-width: 1300px;
+    margin: 50px 0;
+    padding: 0 400px;
+}
+
+.column-right {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    gap: 15px;
+}
+
+.contact {
+    list-style: none;
+    text-decoration: none;
+}
+
+.contact {
+    justify-content: space-between;
+}
+
+.my-photo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden; 
+    object-position: center;
+    object-fit: cover;
+}
+
+
+
+.about-container {
+    margin: 50px 0;
+    padding: 0 400px;
+}
+
+.about-container h2 {
+    margin-bottom: 20px;
+}
+
+
+
+.experience-container {
+    margin: 50px 0;
+    padding: 0 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    gap: 15px;
+}
+
+.experience-container h2 {
+    margin-bottom: 20px;
+}
+
+.experience-workplace {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.experience-list {
+    padding-left: 25px;
+}
+
+
+.education-container {
+    margin: 50px 0;
+    padding: 0 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    gap: 15px;
+}
+
+.education-container h2 {
+    margin-bottom: 20px;
+}
+
+.course-date {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.skills-container {
+    margin: 50px 0;
+    padding: 0 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    gap: 15px;
+}
+
+.skills-container h2 {
+    margin-bottom: 20px;
+}
+
+.skill-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 10px;
+}
+
+
+
