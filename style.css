@@ -119,7 +119,6 @@ ul.experience-list {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
     align-content: space-between;
     gap: 15px;
 }
