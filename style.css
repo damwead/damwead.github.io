@@ -2,7 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 h1 {
@@ -45,7 +47,7 @@ hr.solid {
     width: 100%;
     max-width: 1300px;
     margin: 50px 0;
-    padding: 0 400px;
+    padding: 0px 300px 0 400PX;
 }
 
 .column-right {
@@ -157,6 +159,5 @@ ul.experience-list {
     align-items: baseline;
     gap: 10px;
 }
-
 
 
